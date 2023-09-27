@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-edit {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.icon-delete {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.curson-pointer {
+  cursor: pointer;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: .4rem;
+  scroll-behavior: smooth;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: .5rem;
+}

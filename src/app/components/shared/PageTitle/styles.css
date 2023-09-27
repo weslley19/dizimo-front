@@ -1,0 +1,13 @@
+.content-title {
+  margin-bottom: 2rem;
+}
+
+.content-title > h1 {
+  font-size: 1.3rem;
+}
+
+.content-path {
+  font-size: .8rem;
+  color: #99A1B7;
+  font-weight: 500;
+}

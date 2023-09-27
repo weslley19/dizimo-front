@@ -1,0 +1,95 @@
+.container-header {
+  background-color: #FFF;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.container-header-main {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.header-link {
+  text-decoration: none;
+  margin-right: 1rem;
+  color: #333;
+  transition: all .2s ease 0s;
+}
+
+.header-link:hover {
+  color: #333;
+}
+
+.header-link:last-child {
+  margin-right: 0;
+}
+
+.container-header-sub {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.menu-profile {
+  width: 14rem;
+  background-color: #fff;
+  border-radius: .4rem;
+  padding: 1rem;
+  box-shadow: 4px 4px 10px #ccc;
+  z-index: 99;
+
+  position: fixed;
+  inset: -14px 3px auto auto;
+  margin: 0px;
+  transform: translate3d(-29px , 74px, 0);
+}
+
+.menu-profile > div > .profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: .5rem;
+  background-color: red;
+}
+
+.menu-profile > div > .profile-info > .username {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.menu-profile > div > .profile-info > .email {
+  font-size: .8rem;
+  margin: 0;
+  color: #99A1B7;
+}
+
+.menu-profile > nav > ul {
+  margin-bottom: 0;
+  /* padding: .5rem; */
+}
+
+.menu-profile > nav > ul > li {
+  padding: .5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border-radius: .3rem;
+}
+.menu-profile > nav > ul > li:hover {
+  background-color: #e1e5ec;
+}
+
+.menu-profile > nav > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.menu-profile > nav > ul > li > a {
+  color: #333 !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5rem;
+}

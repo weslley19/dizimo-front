@@ -1,0 +1,66 @@
+.container-aside {
+  width: inherit;
+  height: 100vh;
+  background-color: #3c4b64;
+  padding: 0;
+}
+
+li > a {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.logo {
+  height: 4rem;
+  background-color: #313d51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-nav {
+  max-height: 100%;
+  overflow: hidden scroll;
+}
+
+.content-nav > nav > ul > div > li {
+  width: 80%;
+  height: 3rem;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: .5rem;
+  padding-left: .5rem;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content-nav > nav > ul > div > li:hover, .content-nav > nav > ul > div > li.active {
+  background-color: #485a78;
+}
+
+.content-nav > nav > ul > div > li.nav-title {
+  pointer-events: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.content-logout {
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+  background-color: #313d51;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
